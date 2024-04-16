@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JARVIS</title>
+    <link rel="icon" href="img/drone-icon-1.jpg">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="bg">
+        <nav id="navbar">
+            <ul>
+                <li><h1 class="curr">Home</h1></li>
+                <li><h1 ><a href="about.html" class="home">About</a></h1></li>
+                <li><h1><a href="contact.html" class="home">Contact Us</a></h1></li>
+            </ul>
+        </nav>
+        <center>
+            <div class="vis1" >
+        <h1 >JARVIS</h1>
+        <h2 class="vis2">Drone Surveillence During Flood</h2>
+        </div>
+        </center>
+        <hr>
+        <center>
+        <div>
+            <h2 style="padding: 20px;">Person Density | Geo Tagging | Heat Map Creation | Water Depth Detection | M-App</h2>
+            <img src="img/droneimage.png" style="height: 500px;" style="width: 500px;"><br>
+            <h1 style="padding: 50px;"><a href="https://www.figma.com/file/u89Z1cxrYaBDq6UHmhYAl1/Drone-Apps-(Community)?type=design&node-id=0-1&mode=design&t=DgyUlo203mIuTF6d-0">UI For Drone Application</a></h1>
+            <p>
+                
+Drone surveillance during flood times is instrumental in disaster response, offering real-time aerial views for rescue operations and damage assessment. Equipped with cameras and sensors, drones provide cost-effective and versatile monitoring, overcoming limitations of traditional methods like manned aircraft or ground teams. From identifying stranded individuals to assessing flood extent and infrastructure damage, drones offer crucial data for prioritizing intervention efforts. Thermal imaging aids in locating people in need of rescue, even in low visibility conditions, while advanced sensors monitor water levels and infrastructure integrity. Despite its benefits, ethical considerations regarding privacy and data usage remain paramount for responsible drone deployment during floods.
+            </p>
+        </div>
+        </center>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
