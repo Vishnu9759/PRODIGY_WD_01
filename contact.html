@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JARVIS</title>
+    <link rel="icon" href="img/drone-icon-1.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg">
+        <nav id="navbar">
+            <ul>
+                <
+                <li><h1><a href="home.html" class="home">Home</a></h1></li>
+                <li><h1 ><a href="about.html" class="home">About</a></h1></li>
+                <li><h1 class="curr">Contact Us</h1></li>
+            </ul>
+        </nav>
+        <center>
+            <div style="padding: 150px;">
+                <h1>--------------------------------------------------</h1><br>
+                <h1>Vishnuvarthan M</h1>
+                <h2>m.vishnu13112004@gmail.com</h2>
+                <h3>46,Goodwill Street,old perungalathur,Chennai-28</h3>
+                <h3>Ph no:8778281592</h3>
+                <h1>--------------------------------------------------</h1>
+            </div>
+        </center>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
